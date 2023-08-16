@@ -169,3 +169,5 @@ body {
   margin-left: 10px;
   width: 300px;
 }
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
