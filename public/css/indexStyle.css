@@ -17,7 +17,7 @@ body {
   }
   
   .logo img {
-    width: 70px; /* Ajusta el tamaño del logo según tu necesidad */
+    width: 250px; /* Ajusta el tamaño del logo según tu necesidad */
   }
   
   .nav-links {
@@ -25,7 +25,7 @@ body {
     display: flex;
     gap: 30px;
     margin: 0;
-    padding: 0;
+    padding-top: 30px;
   }
   
   .nav-links li a {
@@ -154,14 +154,12 @@ body {
 
 /* -----------------------------footer----------------------------- */
 
-.footer{
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
+.footer {
+  background-color: black;
+  color:aliceblue;
+  text-align:center;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -170,11 +168,4 @@ body {
 .contenedor{
   margin-left: 10px;
   width: 300px;
-}
-
-.ultimo-contenedor{
-  width: 450px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
