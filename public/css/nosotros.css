@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #f7f5f5;
+
+  }
+
+
+/* ---------------------------------------NAV-BAR ----------------------------------------------*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f5f5;
+    color: #464343;
+    padding: 20px 110px;
+    box-shadow: 0px 0px 10px 0px rgb(29, 29, 29);
+    font-size: 18px;
+  }
+
+  .logo img {
+    width: 250px; /* Ajusta el tamaño del logo según tu necesidad */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding-top: 30px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #006b10;
+  }
+
+
+
+
+  /*--------------------------- main--------------- */
+
+  #banner{
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+
+
+  /* -----------------------------footer----------------------------- */
+
+.footer {
+    position: relative;
+    background-color: rgb(80, 80, 80);
+    color:aliceblue;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    font-size: large;
+    
+  }
+  
+  .contenedor{
+    margin-left: 10px;
+    width: 300px;
+  }

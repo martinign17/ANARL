@@ -20,3 +20,7 @@ app.get('/detallesdepago',(req,res)=>{
     res.sendFile(__dirname + '/views/detallesdepago.html')
 })
 
+app.get('/nosotros',(req,res)=>{
+    res.sendFile(__dirname + '/views/nosotros.html')
+})
+
