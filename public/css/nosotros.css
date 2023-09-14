@@ -46,9 +46,28 @@ body {
   /*--------------------------- main--------------- */
 
   #banner{
-    height: 100%;
-    width: 100%;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    background-image:url('/img/anarl-afuera-opaco.jpg');
+    background-size: cover;
+    padding: 5%;
+    
   }
+
+  #banner p{
+    padding: 10px;
+    margin: 0%;
+  }
+  #texto{
+    margin: 50px 0 50px;
+  }
+
+  #textos{
+    height: 1000px;
+  }
+  
+  
 
 
 
