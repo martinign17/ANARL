@@ -7,39 +7,39 @@ body {
 
 
 /* ---------------------------------------NAV-BAR ----------------------------------------------*/
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f7f5f5;
-    color: #464343;
-    padding: 20px 110px;
-    box-shadow: 0px 0px 10px 0px rgb(29, 29, 29);
-    font-size: 18px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f5f5;
+  color: #464343;
+  padding: 20px 110px;
+  box-shadow: 0px 0px 10px 0px rgb(29, 29, 29);
+  font-size: 18px;
+}
 
-  .logo img {
-    width: 250px; /* Ajusta el tamaño del logo según tu necesidad */
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding-top: 30px;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: #000000;
-    transition: color 0.3s;
-  }
-  
-  .nav-links li a:hover {
-    color: #006b10;
-  }
+.logo img {
+  width: 250px; /* Ajusta el tamaño del logo según tu necesidad */
+}
 
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #006b10;
+}
 
 
 
@@ -64,10 +64,29 @@ body {
   }
 
   #textos{
+    padding: 3em;
     height: 1000px;
+    display: flex;
   }
   
-  
+  .izquierda, .derecha {
+    width: 50%; /* Ambos divs ocuparán el 50% del ancho del contenedor */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+    float: left; /* Hace que los elementos floten a la izquierda */
+    color: #464343;
+    font-size:larger;
+}
+
+.izquierda div, .derecha div {
+  width: 100%;
+  height: 25%; /* Cada sub-div ocupa el 25% de la altura del contenedor padre */
+  box-sizing: border-box;
+}
+
+.izquierda h2, .derecha h2{
+  margin-bottom: 1em;
+  color:#006b10;
+}
 
 
 
