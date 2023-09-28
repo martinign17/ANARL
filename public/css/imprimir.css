@@ -1,0 +1,12 @@
+.hidden {
+    display: none;
+}
+
+/* Estilo opcional para el botón */
+#imprimirBoton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
