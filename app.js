@@ -13,3 +13,18 @@ app.listen(PORT, () => {
 app.get('/',(req,res)=>{
     res.sendFile(__dirname + '/views/home.html')
 })
+app.get('/donaciones',(req,res)=>{
+    res.sendFile(__dirname + '/views/donaciones.html')
+})
+app.get('/detallesdepago',(req,res)=>{
+    res.sendFile(__dirname + '/views/detallesdepago.html')
+})
+
+app.get('/nosotros',(req,res)=>{
+    res.sendFile(__dirname + '/views/nosotros.html')
+})
+
+app.get('/profesionales',(req,res)=>{
+    res.sendFile(__dirname + '/views/profesionales.html')
+})
+

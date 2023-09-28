@@ -19,27 +19,3 @@ overlay.addEventListener('click', () => {
         cartaContenedor.style.display = 'none';
     }, 300);
 });
-
-  
-  function createCheckoutButton(preferenceId) {
-    // Initialize the checkout
-    const bricksBuilder = mercadopago.bricks();
-  
-    const renderComponent = async (bricksBuilder) => {
-      if (window.checkoutButton) window.checkoutButton.unmount();
-      await bricksBuilder.create(
-        "wallet",
-        "button-checkout", // class/id where the payment button will be displayed
-        {
-          initialization: {
-            preferenceId: preferenceId,
-          },
-          callbacks: {
-            onError: (error) => console.error(error),
-            onReady: () => {},
-          },
-        }
-      );
-    };
-    window.checkoutButton = renderComponent(bricksBuilder);
-  }

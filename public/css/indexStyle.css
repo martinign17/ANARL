@@ -12,11 +12,11 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #f7f5f5;
-    color: #fff;
+    color: #464343;
     padding: 20px 110px;
-    box-shadow: 0px 0px 10px 0px rgb(29, 29, 29);
-    font-weight: bold;
-    font-size: 25px;
+    box-shadow: 0px 0px 10px 0px rgb(29, 29, 29); 
+    font-size: 18px;
+    
   }
   
   .logo img {
