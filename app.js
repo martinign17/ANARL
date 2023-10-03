@@ -28,3 +28,6 @@ app.get('/profesionales',(req,res)=>{
     res.sendFile(__dirname + '/views/profesionales.html')
 })
 
+app.get('/galeria',(req,res)=>{
+    res.sendFile(__dirname + '/views/galeria.html')
+})
