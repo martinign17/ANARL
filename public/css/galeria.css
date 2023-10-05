@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #f7f5f5;
+
+  }
+  
+
+  /* ---------------------------------------NAV-BAR ----------------------------------------------*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f5f5;
+    color: #464343;
+    padding: 20px 150px;
+    box-shadow: 0px 0px 10px 0px rgb(29, 29, 29); 
+    font-size: 18px;
+    
+  }
+  
+  .logo img {
+    width: 250px; /* Ajusta el tamaño del logo según tu necesidad */
+  }
+  
+  .nav-links {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding-top: 30px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #006b10;
+  }
+        /*------------------------ Estilos generales ---------------------*/
+        /* body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        } */
+        .gallery {
+            padding-top: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Estilos específicos para cada imagen */
+        .image-container {
+            flex-basis: calc(33.33% - 20px);
+            position: relative;
+            overflow: hidden;
+        }
+        .image-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .image-container:hover .image-title {
+            opacity: 1;
+        }
+
+/* -----------------------------footer----------------------------- */
+
+.footer {
+    margin-top:25px ;
+    position: relative;
+    background-color: rgb(80, 80, 80);
+    color:aliceblue;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    font-size: large;
+    
+  }
+  
+  .contenedor{
+    margin-left: 10px;
+    width: 300px;
+  }
+  

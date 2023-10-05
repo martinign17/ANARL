@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/donaciones.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/imprimir.css">
 </head>
 
 <body>
@@ -25,10 +27,8 @@
             <ul class="nav-links">
                 <li><a href="/nosotros">NOSOTROS</a></li>
                 <li><a href="/profesionales">CONSULTORIO</a></li>
-                <li><a href="#">GALERIA DE IMAGENES</a></li>
+                <li><a href="/galeria">GALERIA DE IMAGENES</a></li>
                 <li><a href="#" id="mostrarCarta">DONACIONES</a></li>
-                
-
             </ul>
         </nav>
     </header>
@@ -64,12 +64,12 @@
                     <img src="/img/anarl-afuera.jpg" width="100%" height="100%">
                     <label class="slide-text"></label>
                 </div>
-                <label for="slide-3" class="slide-control prev control-1">‹</label>
-                <label for="slide-2" class="slide-control next control-1">›</label>
-                <label for="slide-1" class="slide-control prev control-2">‹</label>
-                <label for="slide-3" class="slide-control next control-2">›</label>
-                <label for="slide-2" class="slide-control prev control-3">‹</label>
-                <label for="slide-1" class="slide-control next control-3">›</label>
+                <label for="slide-3" class="slide-control prev control-1"></label>
+                <label for="slide-2" class="slide-control next control-1"></label>
+                <label for="slide-1" class="slide-control prev control-2"></label>
+                <label for="slide-3" class="slide-control next control-2"></label>
+                <label for="slide-2" class="slide-control prev control-3"></label>
+                <label for="slide-1" class="slide-control next control-3"></label>
 
 
                 <ol class="slide-indicador">
@@ -90,20 +90,25 @@
         <!--  contenido   -->
 
         <center>
-            <div class="overlay" id="overlay"></div>
+            <div class="overlay" id="overlay">
             <div class="carta-contenedor" id="carta-contenedor">
                 <div class="carta" id="carta">
                     <img class="logoanl" src="/img/logo-anarl.png" alt="">
                     <br>
                     <img src="/img/qrprueba.png" alt="">
+                    <br>
+                    <button id="imprimirBoton">Imprimir QR</button>
+                    <div id="imagenParaImprimir" class="hidden">
+                        <img src="/img/donaciones.png" alt="">
+                    </div>
+                    <hr color="green" style="width: 300px;">
                     <p class="texto1">ALIAS: </p>
                     <p class="texto2">Tomas.CRACK.ok</p>
                     <p class="texto1">CBU: </p>
                     <p class="texto2">312731273012974012412904</p>
                 </div>
             </div>
-
-
+</div>
 
             <div class="separator"></div>
             <section class="main">
@@ -112,31 +117,35 @@
                     <div class="grid-item"><img src="/img/anarl-afuera.jpg" alt=""></div>
                     <div class="grid-item"><img src="/img/chicos.jpg" alt=""></div>
                     <div class="grid-item"><img src="/img/oficina.jpg" alt=""></div>
-                    <div class="grid-item"><img src="/img/ANARL-1.jpg" alt=""></div>
+                    
                     
 
                     <!-- Agrega más imágenes aquí si es necesario -->
                 </div>
 
                 <div class="separator"></div>
+                <div data-aos="fade-up" data-aos-duration="3000">
 
-                <div class="historia">
-                <p>
-                    Un grupo de vecinos de la ciudad se reúne y funda ANARL el 10 de noviembre de 1960….ahora era el
-                    momento de conseguir el lugar para funcionar…
-                </p>
-
-                <p>
-                    En Nación 401 estaba desocupado el Pabellón de Niños y luego de realizar gestiones ante el
-                    Ministerio de Salud de la Nación el 6 de diciembre de 1962 se inaugura ANARL para la rehabilitación
-                    de los pacientes afectados por la epidemia de polio.
-                </p>
-
-                <p>
-                    A partir de ese momento comenzará a brindar servicios a la población de San Nicolás y su zona de influencia hasta la actualidad.
-                </p>
-                </div>
-
+                    <div class="historia">
+                        <div data-aos="fade-up" data-aos-duration="3000">
+                    <p>
+                        Un grupo de vecinos de la ciudad se reúne y funda ANARL el 10 de Noviembre de 1960….ahora era el
+                        momento de conseguir el lugar para funcionar…
+                    </p>
+                    <div data-aos="fade-right"
+                    data-aos-duration="3000">
+                    <p>
+                        En Nación 401 estaba desocupado el Pabellón de Niños y luego de realizar gestiones ante el
+                        Ministerio de Salud de la Nación el 6 de Diciembre de 1962 se inaugura ANARL para la rehabilitación
+                        de los pacientes afectados por la epidemia de polio.
+                    </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <p>
+                        A partir de ese momento comenzará a brindar servicios a la población de San Nicolás y su zona de influencia hasta la actualidad.
+                    </p>
+                    </div>
+            </div>
             </section>
         </center>
 
@@ -177,6 +186,11 @@
         </div>
     </footer>
     <script src="/js/donaciones.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="/js/imprimir.js"></script>
 </body>
 
 </html>

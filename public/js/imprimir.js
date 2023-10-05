@@ -11,6 +11,7 @@ document.getElementById('imprimirBoton').addEventListener('click', function () {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -34,6 +35,8 @@ document.getElementById('imprimirBoton').addEventListener('click', function () {
 
 
 
+=======
+>>>>>>> dc1f071e25eb4ccd3db1ec41fbf85586fc2b1ffc
 
 
 
