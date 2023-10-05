@@ -11,7 +11,7 @@ document.getElementById('imprimirBoton').addEventListener('click', function () {
 
 
 
-Ñ
+
 
 
 
