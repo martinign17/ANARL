@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/donaciones.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/imprimir.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
             <ul class="nav-links">
                 <li><a href="/nosotros">NOSOTROS</a></li>
                 <li><a href="/profesionales">CONSULTORIO</a></li>
-                <li><a href="#">GALERIA DE IMAGENES</a></li>
+                <li><a href="/galeria">GALERIA DE IMAGENES</a></li>
                 <li><a href="#" id="mostrarCarta">DONACIONES</a></li>
                 <li><a href="#">CONTACTO</a></li>
 
@@ -91,21 +92,25 @@
         <!--  contenido   -->
 
         <center>
-            <div class="overlay" id="overlay"></div>
+            <div class="overlay" id="overlay">
             <div class="carta-contenedor" id="carta-contenedor">
                 <div class="carta" id="carta">
                     <img class="logoanl" src="/img/logo-anarl.png" alt="">
                     <br>
                     <img src="/img/qrprueba.png" alt="">
-
+                    <br>
+                    <button id="imprimirBoton">Imprimir QR</button>
+                    <div id="imagenParaImprimir" class="hidden">
+                        <img src="/img/donaciones.png" alt="">
+                    </div>
+                    <hr color="green" style="width: 300px;">
                     <p class="texto1">ALIAS: </p>
                     <p class="texto2">Tomas.CRACK.ok</p>
                     <p class="texto1">CBU: </p>
                     <p class="texto2">312731273012974012412904</p>
                 </div>
             </div>
-
-
+</div>
 
             <div class="separator"></div>
             <section class="main">
@@ -187,6 +192,7 @@
     <script>
         AOS.init();
       </script>
+    <script src="/js/imprimir.js"></script>
 </body>
 
 </html>

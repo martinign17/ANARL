@@ -1,6 +1,7 @@
 
 
 .overlay {
+    text-align: center;
     display: none;
     position: fixed;
     top: 0;
@@ -18,22 +19,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #ffffff;
-    padding: 20px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 2;
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px  ;
 }
 
-.carta {
-    padding: 20px;
-}
+
 
 .carta a {
     text-decoration: none;
     background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
+    margin: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
@@ -43,14 +41,19 @@
     background-color: #0056b3;
 }
 .logoanl{
-    width: 30%;
-    padding-bottom: 8px;
+    width: 20%;
+  
+}
+
+.carta{
+    padding: 15px;
 }
 .texto1{
-    padding-top: 5px;
+    margin: 15px;  
     font-weight: bold;
     font-size: 28px;
 }
 .texto2{
+    margin: 15px;
     font-size: 25px;
 }
