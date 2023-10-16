@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/css/imprimir.css">
     
     </head>
->>>>>>> dc1f071e25eb4ccd3db1ec41fbf85586fc2b1ffc
+
 
 <body>
 
@@ -41,22 +41,36 @@
         </div>
 </div>
     <!-- header -->
-    <header>
-
-        <nav class="navbar" style="padding: 20px 110px;">
-            <div class="logo">
-
-                <img src="/img/logo-texto.png" alt="logo" >
-
-            </div>
-            <ul class="nav-links">
-                <li><a href="/nosotros">NOSOTROS</a></li>
-                <li><a href="/profesionales">CONSULTORIO</a></li>
-                <li><a href="/galeria">GALERIA DE IMAGENES</a></li>
-                <li><a href="#" id="mostrarCarta">DONACIONES</a></li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index">
+                <img src="/img/logo-anarl.png" alt="logo" width="100" height="100" class="d-inline-block align-text-top">
+                
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/profesionales">Consultorio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" id="mostrarCarta">Donaciones</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
 
     <!-- main -->
 
@@ -75,7 +89,7 @@
 
         <section id="textos">
             <div class="izquierda">
-                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div data-aos="fade-right" data-aos-duration="1000">
 
                     <h2>Nuestra mision</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam non blanditiis doloribus voluptates quos reprehenderit, voluptatibus quod nemo in deserunt natus accusantium error itaque possimus perspiciatis omnis, totam id?</p>
@@ -83,7 +97,7 @@
                 </div>
                 <div></div>
                 
-                <div data-aos="fade-right" data-aos-offset="300">
+                <div data-aos="fade-right" data-aos-duration="1000">
                     <h2>Nuestro objetivo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis assumenda itaque, quaerat, laborum enim atque mollitia, error impedit fugit cupiditate natus molestiae. Nostrum, laboriosam quia modi consequatur iste consectetur dolorem.</p>
                 </div>
@@ -92,12 +106,12 @@
            
             <div class="derecha">
                 <div></div>
-                <div data-aos="fade-left" data-aos-offset="300">
+                <div data-aos="fade-left" data-aos-duration="1000">
                     <h2>Lorem Ipsum</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, provident. Ut quos ab, amet ducimus nulla expedita quas doloribus placeat unde, aut corporis aliquid esse, nemo dolore cum. Quasi, excepturi!</p>
                 </div>
                 <div></div>
-                <div data-aos="fade-left" data-aos-offset="300">
+                <div data-aos="fade-left" data-aos-duration="1000">
                     <h2>Lorem Ipsum</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda nihil aliquam et distinctio dolorum dicta quisquam ducimus obcaecati vero quasi autem similique, deserunt hic aliquid. Repudiandae expedita alias odit!</p>
                 </div>
@@ -114,32 +128,43 @@
 
     <!-- footer -->
 
-    <footer>
-        <div class="footer">
-            <div class="contenedor">
-                <h2>Contacto</h2>
+   
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h1">Anarl</p>
+                
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Contacto</p>
+                <div class="text-secondary">
                 <p>Llamanos al 33640000</p>
                 <p>anarl@gmail.com</p>
                 <p>Luneas a Viernes 8:00 a 18:00</p>
-                <p>Olleros 2, San Nicolás de Los Arroyos, Provincia de Buenos Aires</p>
+                <p>Olleros 2, San Nicolás de Los Arroyos</p>
+                </div>
             </div>
-            <div class="contenedor">
-                <h2>Consultorio</h2>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Consultorio</p>
+                <div class="text-secondary">
                 <p>Turno</p>
                 <p>Especialidades</p>
                 <p>Luneas a Viernes 8:00 a 18:00</p>
-                <p>Olleros 2, San Nicolás de Los Arroyos, Provincia de Buenos Aires</p>
+                <p>Olleros 2, San Nicolás de Los Arroyos</p>
             </div>
-            <div class="contenedor ultimo">
-                <h2>Redes sociales</h2>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Redes sociales</p>
+                <div class="text-secondary">
                 <p>Instagram</p>
                 <p>Facebook</p>
                 <p>Whatsapp</p>
-                <p>lorem</p>
-
+            </div>
             </div>
         </div>
-    </footer>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

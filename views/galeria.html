@@ -7,24 +7,42 @@
     <link rel="stylesheet" href="/css/galeria.css">
     <link rel="stylesheet" href="/css/imprimir.css">
     <link rel="stylesheet" href="/css/donaciones.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 
      <!--        header        -->
-     <header>
-
-        <nav class="navbar">
-            <div class="logo">
-                <img src="/img/logo-texto.png" alt="logo">
-            </div>
-            <ul class="nav-links">
-                <li><a href="/nosotros">NOSOTROS</a></li>
-                <li><a href="/profesionales">CONSULTORIO</a></li>
-                <li><a href="#" id="mostrarCarta">DONACIONES</a></li>
-
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index">
+                <img src="/img/logo-anarl.png" alt="logo" width="100" height="100" class="d-inline-block align-text-top">
+                
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/profesionales">Consultorio</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="/galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" id="mostrarCarta">Donaciones</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
 
      <!--        BODY          -->
      <div class="overlay" id="overlay">
@@ -102,32 +120,46 @@
 
     </div>
 
-    <footer>
-        <div class="footer">
-            <div class="contenedor">
-                <h2>Contacto</h2>
+    
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h1">Anarl</p>
+                
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Contacto</p>
+                <div class="text-secondary">
                 <p>Llamanos al 33640000</p>
                 <p>anarl@gmail.com</p>
                 <p>Luneas a Viernes 8:00 a 18:00</p>
-                <p>Olleros 2, San Nicolás de Los Arroyos, Provincia de Buenos Aires</p>
+                <p>Olleros 2, San Nicolás de Los Arroyos</p>
+                </div>
             </div>
-            <div class="contenedor">
-                <h2>Consultorio</h2>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Consultorio</p>
+                <div class="text-secondary">
                 <p>Turno</p>
                 <p>Especialidades</p>
                 <p>Luneas a Viernes 8:00 a 18:00</p>
-                <p>Olleros 2, San Nicolás de Los Arroyos, Provincia de Buenos Aires</p>
+                <p>Olleros 2, San Nicolás de Los Arroyos</p>
             </div>
-            <div class="contenedor ultimo">
-                <h2>Redes sociales</h2>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Redes sociales</p>
+                <div class="text-secondary">
                 <p>Instagram</p>
                 <p>Facebook</p>
                 <p>Whatsapp</p>
-                <p>lorem</p>
-
+            </div>
             </div>
         </div>
-    </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="/js/donaciones.js"></script>
     <script src="/js/imprimir.js"></script>
 </body>
