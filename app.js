@@ -32,12 +32,8 @@ app.get('/galeria',(req,res)=>{
 app.get('/contacto',(req,res)=>{
     res.sendFile(__dirname + '/views/contacto.html')
 })
-app.get('/confirmacion',(req,res)=>{
-    res.sendFile(__dirname + '/views/confirmacion.html')
+
+app.get('/enviar',(req,res)=>{
+    res.sendFile(__dirname + '/views/enviar.php')
 })
-app.get('/error',(req,res)=>{
-    res.sendFile(__dirname + '/views/error.html')
-})
-app.get('/enviar-email',(req,res)=>{
-    res.sendFile(__dirname + '/php/enviar-email.php')
-})
+
