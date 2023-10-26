@@ -122,3 +122,14 @@ footer {
     margin-top: 2em;
   }
   
+  @media (max-width: 768px) {
+    .image-container {
+      flex: 0 0 calc(50% - 10px); /* Para 2 elementos por fila */
+    }
+  }
+
+  @media (max-width: 425px) {
+    .image-container {
+      flex: 0 0 100% /*un elemento por fila*/
+    }
+  }
