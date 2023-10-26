@@ -1,6 +1,6 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email_to = "destinatario@example.com"; // Cambia esto por la dirección de correo a la que deseas enviar el formulario.
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $email_to = "anarl@gmail.com"; // Cambia esto por la dirección de correo a la que deseas enviar el formulario.
     $subject = "Formulario de contacto";
 
     $name = $_POST["name"];
