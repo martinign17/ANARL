@@ -25,7 +25,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/nosotros">Nosotros</a>
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="/profesionales">Consultorio</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="/galeria">Galeria</a>
+                <a class="nav-link" style="color:#006b10; font-size: 19px;" href="/galeria">Galeria</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link" id="mostrarCarta">Donaciones</a>
@@ -45,20 +45,18 @@
       </nav>
 
      <!--        BODY          -->
+     
      <div class="overlay" id="overlay">
         <div class="carta-contenedor" id="carta-contenedor">
             <div class="carta" id="carta">
                 <img class="logoanl" src="/img/logo-anarl.png" alt="">
                 <br>
-                <img src="/img/qrprueba.png" alt="">
+                <img class="qr" src="/img/qrprueba.png" alt="">
                 <br>
-                <button id="imprimirBoton">Imprimir QR</button>
-                <div id="imagenParaImprimir" class="hidden">
-                    <img src="/img/donaciones.png" alt="">
-                </div>
-                <hr color="green" style="width: 300px;">
+                <button id="descargar">Descargar PDF</button>
+                <center><hr color="green" style="width: 300px;"></center>
                 <p class="texto1">ALIAS: </p>
-                <p class="texto2">Tomas.CRACK.ok</p>
+                <p class="texto2">ANARL.ASOCIACION.NICOLEÑA</p>
                 <p class="texto1">CBU: </p>
                 <p class="texto2">312731273012974012412904</p>
             </div>
@@ -68,58 +66,61 @@
 
 
 
+<center>
     <div class="gallery">
+      
+
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 1">
+            <img src="/img/16-anarl.jpg" alt="Imagen 1" class="enlarge-image">
             <div class="image-title">Imagen 1</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 2">
+            <img src="/img/logo-anarl.png" alt="Imagen 2" class="enlarge-image">
             <div class="image-title">Imagen 2</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
+            <img src="/img/oficina.jpg" alt="Imagen 3" class="enlarge-image">
             <div class="image-title">Imagen 3</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
+            <img src="/img/anarl-dentro.jpg" alt="Imagen 3" class="enlarge-image">
             <div class="image-title">Imagen 4</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
+            <img src="/img/chicos.jpg" alt="Imagen 3" class="enlarge-image">
             <div class="image-title">Imagen 5</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
+            <img src="/img/ANARL-1.jpg" alt="Imagen 3" class="enlarge-image">
             <div class="image-title">Imagen 6</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 1">
-            <div class="image-title">Imagen 7</div>
+            <img src="/img/16-anarl.jpg" alt="Imagen 1" class="enlarge-image">
+            <div class="image-title">Imagen 1</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 2">
-            <div class="image-title">Imagen 8</div>
+            <img src="/img/logo-anarl.png" alt="Imagen 2" class="enlarge-image">
+            <div class="image-title">Imagen 2</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
-            <div class="image-title">Imagen 9</div>
+            <img src="/img/oficina.jpg" alt="Imagen 3" class="enlarge-image">
+            <div class="image-title">Imagen 3</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
-            <div class="image-title">Imagen 10</div>
+            <img src="/img/anarl-dentro.jpg" alt="Imagen 3" class="enlarge-image">
+            <div class="image-title">Imagen 4</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
-            <div class="image-title">Imagen 11</div>
+            <img src="/img/chicos.jpg" alt="Imagen 3" class="enlarge-image">
+            <div class="image-title">Imagen 5</div>
         </div>
         <div class="image-container">
-            <img src="/img/not-found.png" alt="Imagen 3">
-            <div class="image-title">Imagen 12</div>
+            <img src="/img/ANARL-1.jpg" alt="Imagen 3" class="enlarge-image">
+            <div class="image-title">Imagen 6</div>
         </div>
-
+        
     </div>
-
+</center>
     
     <div class="container-fluid">
         <div class="row p-5 bg-dark text-white">
@@ -161,6 +162,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="/js/donaciones.js"></script>
-    <script src="/js/imprimir.js"></script>
+    <script src="/js/descargar.js"></script>
+    <script src="/js/galeria.js"></script>
 </body>
 </html>

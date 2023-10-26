@@ -26,15 +26,12 @@
             <div class="carta" id="carta">
                 <img class="logoanl" src="/img/logo-anarl.png" alt="">
                 <br>
-                <img src="/img/qrprueba.png" alt="">
+                <img class="qr" src="/img/qrprueba.png" alt="">
                 <br>
-                <button id="imprimirBoton">Imprimir QR</button>
-                <div id="imagenParaImprimir" class="hidden">
-                    <img src="/img/donaciones.png" alt="">
-                </div>
-                <hr color="green" style="width: 300px;">
+                <button id="descargar">Descargar PDF</button>
+                <center><hr color="green" style="width: 300px;"></center>
                 <p class="texto1">ALIAS: </p>
-                <p class="texto2">Tomas.CRACK.ok</p>
+                <p class="texto2">ANARL.ASOCIACION.NICOLEÑA</p>
                 <p class="texto1">CBU: </p>
                 <p class="texto2">312731273012974012412904</p>
             </div>
@@ -53,10 +50,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/nosotros">Nosotros</a>
+                <a class="nav-link" style="color:#006b10; font-size: 19px;" href="/nosotros">Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/profesionales">Consultorio</a>
@@ -176,7 +173,7 @@
         AOS.init();
       </script> 
       <script src="/js/donaciones.js"></script>
-      <script src="/js/imprimir.js"></script>
+      <script src="/js/descargar.js"></script>
 </body>
 
 </html>
