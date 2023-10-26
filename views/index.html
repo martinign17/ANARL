@@ -33,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index">Home</a>
+            <a class="nav-link active" aria-current="page"  style="color:#006b10; font-size: 19px;" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/nosotros">Nosotros</a>
@@ -60,7 +60,7 @@
     <main>
 
         <!--    banner slider    -->
-
+<center>
 
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -86,21 +86,18 @@
 
         <!--  contenido   -->
 
-        <center>
+       
             <div class="overlay" id="overlay">
             <div class="carta-contenedor" id="carta-contenedor">
                 <div class="carta" id="carta">
                     <img class="logoanl" src="/img/logo-anarl.png" alt="">
                     <br>
-                    <img src="/img/qrprueba.png" alt="">
+                    <img class="qr" src="/img/qrprueba.png" alt="">
                     <br>
-                    <button id="imprimirBoton">Imprimir QR</button>
-                    <div id="imagenParaImprimir" class="hidden">
-                        <img src="/img/donaciones.png" alt="">
-                    </div>
-                    <hr color="green" style="width: 300px;">
+                    <button id="descargar">Descargar PDF</button>
+                    <center><hr color="green" style="width: 300px;"></center>
                     <p class="texto1">ALIAS: </p>
-                    <p class="texto2">Tomas.CRACK.ok</p>
+                    <p class="texto2">ANARL.ASOCIACION.NICOLEÑA</p>
                     <p class="texto1">CBU: </p>
                     <p class="texto2">312731273012974012412904</p>
                 </div>
@@ -142,7 +139,7 @@
         </center>
 
 
-
+        
     </main>
 
 
@@ -178,9 +175,9 @@
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <p class="h5">Redes sociales</p>
                 <div class="text-secondary">
-                <p>Instagram</p>
-                <p>Facebook</p>
-                <p>Whatsapp</p>
+                <p><i class="fa-brands fa-instagram fa-xl"></i>  <a class="redess" href="https://www.instagram.com/anarlsannicolas_/">Instagram</a></p>
+                <p><i class="fa-brands fa-facebook fa-xl"></i>  <a class="redess" href="https://web.facebook.com/profile.php?id=61551583583408">Facebook</a> </p>
+                <p><i class="fa-brands fa-whatsapp fa-xl"></i>  Whatsapp </p>
             </div>
             </div>
         </div>
@@ -197,7 +194,7 @@
     <script>
         AOS.init();
       </script>
-    <script src="/js/imprimir.js"></script>
+    <script src="/js/descargar.js"></script>
 </body>
 
 </html>
