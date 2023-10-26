@@ -4,7 +4,7 @@
     "node": "^20.5.0",
     "path": "^0.12.7"
   },
-  "name": "lalcec",
+  "name": "anarl",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
