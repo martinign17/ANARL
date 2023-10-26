@@ -28,3 +28,12 @@ app.get('/profesionales',(req,res)=>{
 app.get('/galeria',(req,res)=>{
     res.sendFile(__dirname + '/views/galeria.html')
 })
+
+app.get('/contacto',(req,res)=>{
+    res.sendFile(__dirname + '/views/contacto.html')
+})
+
+app.get('/enviar',(req,res)=>{
+    res.sendFile(__dirname + '/views/enviar.php')
+})
+

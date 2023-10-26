@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="/css/nosotros.css">
     <script src="https://kit.fontawesome.com/97aa073c0a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,9 +13,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="icon" href="/img/logo-anarl.png" type="image/x-icon">
+
     <link rel="stylesheet" href="/css/donaciones.css">
     <link rel="stylesheet" href="/css/imprimir.css">
-    <link rel="icon" href="/img/logo-anarl.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/contacto.css">
+    
     </head>
 
 
@@ -53,7 +56,7 @@
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:#006b10; font-size: 19px;" href="/nosotros">Nosotros</a>
+                <a class="nav-link"  href="/nosotros">Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/profesionales">Consultorio</a>
@@ -62,7 +65,7 @@
                 <a class="nav-link" href="/galeria">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contacto">Contacto</a>
+                <a class="nav-link" style="color:#006b10; font-size: 19px;" href="/nosotros">Contacto</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link" id="mostrarCarta">Donaciones</a>
@@ -73,54 +76,32 @@
       </nav>
 
     <!-- main -->
-
-    <main>
-
-
-    <section>
-    <img src="/img/anarl-afuera-opaco1.jpg" class="img-fluid" alt="..." style="width: 100%;" >
-    
-
-    </section>
-
-        <section id="textos">
-            <div class="izquierda">
-                <div data-aos="fade-right" data-aos-duration="1000">
-
-                    <h2>Nuestra mision</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam non blanditiis doloribus voluptates quos reprehenderit, voluptatibus quod nemo in deserunt natus accusantium error itaque possimus perspiciatis omnis, totam id?</p>
-               
-                </div>
-                <div></div>
-                
-                <div data-aos="fade-right" data-aos-duration="1000">
-                    <h2>Nuestro objetivo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis assumenda itaque, quaerat, laborum enim atque mollitia, error impedit fugit cupiditate natus molestiae. Nostrum, laboriosam quia modi consequatur iste consectetur dolorem.</p>
-                </div>
-                <div></div>
-            </div>
-           
-            <div class="derecha">
-                <div></div>
-                <div data-aos="fade-left" data-aos-duration="1000">
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, provident. Ut quos ab, amet ducimus nulla expedita quas doloribus placeat unde, aut corporis aliquid esse, nemo dolore cum. Quasi, excepturi!</p>
-                </div>
-                <div></div>
-                <div data-aos="fade-left" data-aos-duration="1000">
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda nihil aliquam et distinctio dolorum dicta quisquam ducimus obcaecati vero quasi autem similique, deserunt hic aliquid. Repudiandae expedita alias odit!</p>
-                </div>
-            </div>
-
-
-        </section>
-
-
-
-
-    </main>
-
+    <div class="caja_form" style="margin-left: 100px;">
+      <div id="templatemo_contact" class="borde">
+   </div>
+      <div class="col-md-8 templatemo_contactform">
+      <div class="templatemo_contacttitle">CONTACTO</div>
+       <div class="templatemo_sub_contacttitle">!Dejanos tu comentario¡ </div>
+        
+   
+      <form action="https://formsubmit.co/anarlsannicolas@gmail.com" method="post">
+                           <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+                           <input type="text" name="email" id="email" class="email" placeholder="CORREO"> 
+                           <input type="hidden" name="_autoresponse" value="Apenas este disponible gente del personal, su correo sera revisado">
+                           <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+                           <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+                           <div class="clear"></div>
+                               <div class="col-md-8"> 
+                                   <button type="submit" class="btn btn-primary">ENVIAR </button>
+       <input type="hidden" name="_next" value="http://localhost:3001/contacto">
+       <input type="hidden" name="_captcha" value="false">
+       <input type="hidden" name="_template" value="table">
+      
+      
+        </div>
+       </form>
+       </div>
+    </div>
 
     <!-- footer -->
 
@@ -173,6 +154,7 @@
       </script> 
       <script src="/js/donaciones.js"></script>
       <script src="/js/descargar.js"></script>
+      
 </body>
 
 </html>
