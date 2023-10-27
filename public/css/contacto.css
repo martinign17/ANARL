@@ -37,6 +37,9 @@
     height: 100px;
 }
 
+.caja_form {
+    margin-left: 100px;
+  }
 
 .templatemo_contactform .btn-primary {
     background: #006b10;
@@ -58,3 +61,13 @@ main{
     margin-top: 5em;
     margin-bottom: 5em;
 }
+
+
+
+  @media (max-width: 425px) {
+    .caja_form {
+      margin-left: 0px;
+    }
+
+    
+  }
