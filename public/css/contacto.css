@@ -64,7 +64,7 @@ main{
 
 
 
-  @media (max-width: 425px) {
+  @media (max-width: 767px) {
     .caja_form {
       margin-left: 0px;
     }
